@@ -12,6 +12,7 @@ colorScheme {
 
 body {
     background-color: #f7f2ed;
+    background-image: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.1));
     color: #2e2c2f;
 }
 
