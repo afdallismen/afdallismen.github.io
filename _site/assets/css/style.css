@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+colorScheme {
+    color: #d1495b;
+    color: #f7f2ed;
+    color: #8baeb7;
+    color: #5a545b;
+    color: #2e2c2f;
+}
+
+body {
+    background-color: #f7f2ed;
+    background-image: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.1));
+    color: #2e2c2f;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2c2f;
+}
+
+#hactiv8:hover {
+    border-bottom: 2px dashed #8baeb7;
+}
+
+#intro {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#intro img {
+    border: 1px solid #ece0d5;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#intro figcaption {
+    margin: 0 auto;
+    max-width: 880px;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
+
+#divider {
+    margin: 0 auto;
+    width: 120px;
+    border: 2px solid #5a545b;
+    border-radius: 2px;
+}
+
+#contact {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#contact a {
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 5%;
+    margin: 0px 2px;
+    border: 2px solid transparent;
+}
+
+#contact a:hover {
+    box-sizing: border-box;
+    border: 2px dashed #8baeb7;
+}
+
+.hightlight {
+    color: #d1495b;
+    font-weight: bold;
+}
